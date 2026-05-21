@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    color: #555;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 2;
+    padding: 4rem 2rem;
+}
+
+a {
+    color: #555;
+    margin-right: 1rem;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.name {
+    color: #ccc;
+}
+
+.skills {
+    display:  flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skill-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 6px;
+}
+
+.skill-group .label {
+    min-width: 6rem;
+}
